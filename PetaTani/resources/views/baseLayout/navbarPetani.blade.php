@@ -71,6 +71,9 @@
                         <a class="nav-link" href="#" style="color: #64748B">Jual Tani</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #64748B">Produksi</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#" style="color: #64748B">Keluar</a>
                     </li>
                 </ul>

@@ -27,7 +27,11 @@ Route::get('/navbarP', function () {
 });
 
 Route::get('/resource', function () {
-    return view('resource',['title'=>"showResource"]);
+    return view('Petani/resource',['title'=>"showResource"]);
+});
+
+Route::get('/produksi', function () {
+    return view('Petani/Produksi',['title'=>"Produksi"]);
 });
 
 

@@ -46,7 +46,7 @@ class LoginController extends Controller
     }
 
     public function showResource(){
-        return view("resource",[
+        return view("Petani/resource",[
             "title"=>"Resource"
         ]);
     }
