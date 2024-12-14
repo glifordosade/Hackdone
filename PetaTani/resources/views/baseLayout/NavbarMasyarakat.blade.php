@@ -10,12 +10,45 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('css/landing.css') }}">
     <title>Document</title>
+    <style>
+        .input-group {
+
+            border: 2px solid #AFB1BD;
+            /* Unified border for the entire group */
+            border-radius: 5px;
+            /* Rounded corners for the group */
+            overflow: hidden;
+            /* Ensures content stays within the border */
+        }
+
+        .input-group-text {
+            background-color: #ffffff;
+            /* Same as input field for seamless integration */
+            border: none;
+            /* Remove individual border */
+        }
+
+        .input-group:focus-within {
+            border: 2px solid #055C46;
+            /* border-color: #0056b3; */
+            /* Change border color when focused */
+            box-shadow: 0 0 5px rgba(5, 92, 70, 0.5);
+            /* Optional focus glow effect */
+        }
+
+        input.form-control:focus {
+            box-shadow: none;
+            /* Remove the default input box shadow */
+            outline: none;
+            /* Remove the default focus outline */
+        }
+    </style>
 </head>
 
 <body>
-    <div class="navbar-container">
+    <div class="shadow-sm navbar-container">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+            <div class=" container-fluid" style="padding-left:50px;padding-right:50px">
                 <a class="navbar-brand" href="#">
                     <img src="img/hlogo.png" alt="Logo" style="width:100px;">
                 </a>
@@ -23,38 +56,38 @@
                     aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="text-center collapse navbar-collapse" id="navbarText">
+                <div class="text-center collapse navbar-collapse" id="navbarText"
+                    style="justify-content: space-between">
                     {{-- Button Wishlist Keranjang dan Notifikasi --}}
 
-                    <div class="mx-auto" style="display:flex; flex-direction:row; gap:20px">
-                        <div class="rounded input-group" style="width: 500px">
-                            <div class="input-group">
-                                <!-- Search Icon -->
-                                <span class="bg-white border-0 input-group-text" style="margin-right: -10px">
-                                    <img src="img/search.png" style="height:18px;" alt="Search Icon">
-                                </span>
-                                <!-- Search Input -->
-                                <input type="search" class="border-0 rounded form-control" placeholder="Pencarian" />
-                            </div>
-
+                    <div class="mx-auto" style="display:flex; flex-direction:row;">
+                        <div class="input-group" style="width: 500px">
+                            <!-- Search Icon -->
+                            <span class="bg-white border-0 input-group-text">
+                                <img src="img/search.png" style="height:18px;" alt="Search Icon">
+                            </span>
+                            <!-- Search Input -->
+                            <input type="search" class="border-0 form-control" placeholder="Pencarian"
+                                aria-label="Search" />
                         </div>
-                        <span class="border-0 input-group-text" style="gap: 12px">
-                            <img src="img/Notifikasi.png" style="height:18px;" alt="Search Icon">
+                    </div>
+                    <!-- Button Registrasi dan Masuk tetap di kanan -->
+                    <span class="navbar-text"
+                        style="display: flex; justify-content:space-between;align-items:center;gap:10px">
+                        <span class="border-0" style="gap: 12px;display:flex;align-items:center;justify-content:center">
+                            <img src="img/Notifikasi.png" style="height:20px;" alt="Search Icon">
                             <img src="img/Love.png" style="height:18px;" alt="Search Icon">
                             <img src="img/Cart.png" style="height:20px;" alt="Search Icon">
                         </span>
-                    </div>
-                    <!-- Button Registrasi dan Masuk tetap di kanan -->
-                    <span class="navbar-text" style="display: flex; justify-content:space-between;align-items:center;gap:10px">
-                        <div style="background-color:#2f2f2f;height:24px;width:1.5px">
+                        <div style="background-color:#2f2f2f;height:24px;width:2px;border-radius:10px">
                         </div>
                         {{-- User  --}}
-                        <div style="display: flex;justify-content:center;align-items:center">
+                        <div style="display: flex;justify-content:center;align-items:center;gap:1rem">
                             {{-- Photo Profile --}}
                             <img src="img/Mask Group.png" style="width:48px" alt="">
-                            <div style="display: flex;flex-direction:column">
-                                <div> Hi, Samsul</div>
-                                <div> Masyarakat</div>
+                            <div style="display: flex;flex-direction:column;align-items:start;">
+                                <div style="font-size:20px;font-weight:500;color:#2f2f2f"> Hi, Samsul</div>
+                                <div style="font-size:10px;font-weight:400;color:#100DB1"> Masyarakat</div>
                             </div>
 
                         </div>

@@ -33,3 +33,6 @@ Route::get('/resource', function () {
 
 
 
+Route::get('/berandaM', function () {
+    return view('masyarakat/beranda',['title'=>"NavbarMasyarakat"]);
+});
