@@ -1,0 +1,59 @@
+.navbar-brand .img {
+    width: 30px;
+    height: 30px;
+}
+
+.part1 .span {
+    color:#F47E20;
+}
+
+.part1 .row .col .h4 {
+    font-size: 20px;
+
+}
+
+.container {
+    margin-top: 20px;
+}
+
+
+
+.part2 {
+    margin-top: 100px;
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.h5 .card-body {
+    font-weight: bold;
+    color: #F47E20;
+}
+
+.a .card {
+    color: #F47E20;
+}
+
+#part3 {
+  
+    background-color: #F0FAF7;
+}
+
+.col .part3 {
+    margin-top: 40px;
+}
+
+#part2 {
+    margin-top: 70px;
+    width:100%;
+    height: 700px;
+    background-color: antiquewhite;
+}
+
+.h4 .part2 {
+    margin-top: 300px;
+}
+
+
