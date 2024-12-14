@@ -16,7 +16,7 @@
       </div>
 
       <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button class="btn btn-primary me-md-2" type="button" style=" font-size:15px; background-color:#055C46; border-color:#055C46">Masuk</button>
+          <button class="btn btn-primary me-md-2" type="button" style=" font-size:15px; background-color:#055C46; border-color:#055C46; padding-left:20px;padding-right:20px" >Masuk</button>
           <button class="btn btn-primary" type="button" style="background-color:#EAFFF9; color:#3BC49A; border-color:#3BC49A">Pelajari Lebih Lanjut -> </button>
         </div>
 
@@ -38,7 +38,7 @@
       <div class="row">
           <div class="col" style="margin-top:20px">
             <div class="card text-start" style="width: 18rem;">
-                <img src="img/Petatani.png" class="card-img-top" alt="..." style="height: 150px">
+                <img src="img/Image.png" class="card-img-top" alt="..." style="height: 150px">
                 <div class="card-body">
                   <h5 class="card-title">Jual Produk Tani</h5>
                   <p class="card-text">Unggah dan jual hasil tani Anda dengan mudah.</p>
@@ -49,7 +49,7 @@
           </div>
           <div class="col" style="margin-top:20px">
             <div class="card text-start" style="width: 18rem;">
-                <img src="img/Petatani.png" class="card-img-top" alt="..." style="height: 150px">
+                <img src="img/Image (1).png" class="card-img-top" alt="..." style="height: 150px">
                 <div class="card-body">
                   <h5 class="card-title">Jual Produk Tani</h5>
                   <p class="card-text">Unggah dan jual hasil tani Anda dengan mudah.</p>
@@ -60,7 +60,7 @@
           </div>
           <div class="col" style="margin-top:20px">
             <div class="card text-start" style="width: 18rem;">
-                <img src="img/Petatani.png" class="card-img-top" alt="..." style="height: 150px">
+                <img src="img/data.png" class="card-img-top" alt="..." style="height: 150px">
                 <div class="card-body">
                   <h5 class="card-title">Jual Produk Tani</h5>
                   <p class="card-text">Unggah dan jual hasil tani Anda dengan mudah.</p>

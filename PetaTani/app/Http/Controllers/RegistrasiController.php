@@ -8,11 +8,11 @@ use Illuminate\Http\RedirectResponse;
 class RegistrasiController extends Controller
 {
 
-    public function showRegist(){
-        return view("login",[
-            "title"=>"Login"
-        ]);
-    }
+    // public function showRegist(){
+    //     return view("login",[
+    //         "title"=>"Login"
+    //     ]);
+    // }
     public function RegistProcess(Request $req): RedirectResponse
     {
         $valid = $req->validate([
