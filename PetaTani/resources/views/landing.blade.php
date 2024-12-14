@@ -37,8 +37,8 @@
 
       <div class="row">
           <div class="col" style="margin-top:20px">
-            <div class="card text-start" style="width: 18rem;">
-                <img src="img/Image.png" class="card-img-top" alt="..." style="height: 150px">
+            <div class="card text-start" style="width: 18rem; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); border-radius: 8px;">
+                <img src="img/Image.png" class="card-img-top" alt="..." style="height: 150px; ">
                 <div class="card-body">
                   <h5 class="card-title">Jual Produk Tani</h5>
                   <p class="card-text">Unggah dan jual hasil tani Anda dengan mudah.</p>
@@ -48,8 +48,8 @@
 
           </div>
           <div class="col" style="margin-top:20px">
-            <div class="card text-start" style="width: 18rem;">
-                <img src="img/Image (1).png" class="card-img-top" alt="..." style="height: 150px">
+            <div class="card text-start" style="width: 18rem; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); border-radius: 8px;">
+                <img src="img/Image (1).png" class="card-img-top" alt="..." style="height: 150px;  ">
                 <div class="card-body">
                   <h5 class="card-title">Jual Produk Tani</h5>
                   <p class="card-text">Unggah dan jual hasil tani Anda dengan mudah.</p>
@@ -59,8 +59,8 @@
 
           </div>
           <div class="col" style="margin-top:20px">
-            <div class="card text-start" style="width: 18rem;">
-                <img src="img/data.png" class="card-img-top" alt="..." style="height: 150px">
+            <div class="card text-start" style="width: 18rem; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); border-radius: 8px;">
+                <img src="img/data.png" class="card-img-top" alt="..." style="height: 150px; ">
                 <div class="card-body">
                   <h5 class="card-title">Jual Produk Tani</h5>
                   <p class="card-text">Unggah dan jual hasil tani Anda dengan mudah.</p>

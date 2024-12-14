@@ -52,3 +52,17 @@ Route::get('/berandaM', function () {
 
 // routes/api.php
 Route::get('/regions-colors', [mapController::class, 'getJumlah']);
+Route::get('/register', function () {
+    return view('register',['title'=>"NavbarMasyarakat"]);
+});
+
+
+
+Route::get('/dashboardP', function () {
+    return view('pemerintah/dashboard',['title'=>"NavbarPemerintah"]);
+});
+
+Route::get('/produk', function () {
+    return view('masyarakat/produk',['title'=>"NavbarPemerintah"]);
+});
+
