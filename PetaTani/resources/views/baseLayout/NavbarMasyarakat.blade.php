@@ -8,9 +8,26 @@
     <title>PetaTani | {{ $title }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Biyclette&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="{{ asset('css/landing.css') }}">
     <title>Document</title>
     <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar-container {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            margin: 0;
+            padding: 0;
+        }
+        
         .input-group {
 
             border: 2px solid #AFB1BD;
@@ -48,7 +65,7 @@
 <body>
     <div class="shadow-sm navbar-container">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class=" container-fluid" style="padding-left:50px;padding-right:50px">
+            <div class=" container" style="padding-left:50px;padding-right:50px">
                 <a class="navbar-brand" href="#">
                     <img src="img/hlogo.png" alt="Logo" style="width:100px;">
                 </a>

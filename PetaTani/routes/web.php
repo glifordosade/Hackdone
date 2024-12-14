@@ -35,18 +35,12 @@ Route::get('/navbarP', function () {
     return view('baseLayout/navbarPetani',['title'=>"dashboardPetani"]);
 });
 
-Route::get('/resource', function () {
-    return view('Petani/resource',['title'=>"showResource"]);
-});
-
-Route::get('/produksi', function () {
-    return view('Petani/Produksi',['title'=>"Produksi"]);
-});
 
 
 
 
-Route::get('/berandaM', function () {
+
+Route::get('/berandaMasyarakat', function () {
     return view('masyarakat/beranda',['title'=>"NavbarMasyarakat"]);
 });
 
@@ -64,5 +58,34 @@ Route::get('/dashboardP', function () {
 
 Route::get('/produk', function () {
     return view('masyarakat/produk',['title'=>"NavbarPemerintah"]);
+});
+
+
+Route::get('/transaksi', function () {
+    return view('masyarakat/transaksi',['title'=>"NavbarPemerintah"]);
+});
+
+Route::get('/checkout', function () {
+    return view('masyarakat/checkout',['title'=>"NavbarPemerintah"]);
+});
+
+Route::get('/dashboardPetani', function () {
+    return view('Petani/dashboardPetani',['title'=>"NavbarPemerintah"]);
+});
+
+Route::get('/resource', function () {
+    return view('Petani/resource',['title'=>"showResource"]);
+});
+
+Route::get('/produksi', function () {
+    return view('Petani/Produksi',['title'=>"Produksi"]);
+});
+
+Route::get('/tambahProduk', function () {
+    return view('Petani/tambahProduk',['title'=>"NavbarPemerintah"]);
+});
+
+Route::get('/dataProduk', function () {
+    return view('Petani/produk',['title'=>"NavbarPemerintah"]);
 });
 
