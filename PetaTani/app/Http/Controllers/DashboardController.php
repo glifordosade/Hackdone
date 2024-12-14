@@ -12,5 +12,11 @@ class DashboardController extends Controller
         ]);
     }
 
+    public function dashboardPetani(){
+        return view('dashboardPetani',[
+            "title"=>"Dashboard Petani"
+        ]);
+    }
+
     // public fun
 }

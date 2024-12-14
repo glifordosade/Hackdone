@@ -45,4 +45,13 @@ class LoginController extends Controller
         return redirect('/');
     }
 
+    public function showResource(){
+        return view("Petani/resource",[
+            "title"=>"Resource"
+        ]);
+    }
+
 }
+
+
+

@@ -30,3 +30,21 @@ Route::get('/navbarM', function () {
 });
 
 Route::get("/data",[PanganController::class,"pangan"]);
+Route::get('/navbarP', function () {
+    return view('baseLayout/navbarPetani',['title'=>"dashboardPetani"]);
+});
+
+Route::get('/resource', function () {
+    return view('Petani/resource',['title'=>"showResource"]);
+});
+
+Route::get('/produksi', function () {
+    return view('Petani/Produksi',['title'=>"Produksi"]);
+});
+
+
+
+
+Route::get('/berandaM', function () {
+    return view('masyarakat/beranda',['title'=>"NavbarMasyarakat"]);
+});
