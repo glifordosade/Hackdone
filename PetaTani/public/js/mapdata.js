@@ -1,4 +1,5 @@
 var simplemaps_countrymap_mapdata={
+
   main_settings: {
     //General settings
 		width: "responsive", //or 'responsive'
@@ -249,7 +250,7 @@ var simplemaps_countrymap_mapdata={
     IDSA: {
       name: "Sulawesi Utara",
       description: "default",
-      color: "red",
+      color: "default",
       hover_color: "default",
       url: "default"
     },
@@ -376,7 +377,7 @@ var simplemaps_countrymap_mapdata={
       parent_id: "IDKT"
     },
     IDKU: {
-      name: "North Kalimantan",
+      name: "Kalimantan Utara",
       parent_id: "IDKU"
     },
     IDLA: {

@@ -1,6 +1,6 @@
 [
     {
-        "Kode":"ACH",
+        "Kode":"IDAC",
         "Bawang Merah":"13673",
         "Bawang Putih":"20",
         "Bawang Daun":"1193",
@@ -24,7 +24,7 @@
         "Jengkol":"7982"
     },
     {
-        "Kode":"SMT",
+        "Kode":"IDSU",
         "Bawang Merah":"65585",
         "Bawang Putih":"15",
         "Bawang Daun":"17669",
@@ -48,7 +48,7 @@
         "Jengkol":"9963"
     },
     {
-        "Kode":"SMB",
+        "Kode":"IDSB",
         "Bawang Merah":"233917",
         "Bawang Putih":"588",
         "Bawang Daun":"62073",
@@ -72,7 +72,7 @@
         "Jengkol":"21295"
     },
     {
-        "Kode":"RIU",
+        "Kode":"IDRI",
         "Bawang Merah":"323",
         "Bawang Putih":"-",
         "Bawang Daun":"17",
@@ -96,7 +96,7 @@
         "Jengkol":"4753"
     },
     {
-        "Kode":"JMB",
+        "Kode":"IDJA",
         "Bawang Merah":"18401",
         "Bawang Putih":"527",
         "Bawang Daun":"9422",
@@ -120,7 +120,7 @@
         "Jengkol":"8077"
     },
     {
-        "Kode":"SSL",
+        "Kode":"IDSS",
         "Bawang Merah":"1197",
         "Bawang Putih":"50",
         "Bawang Daun":"3022",
@@ -144,7 +144,7 @@
         "Jengkol":"8207"
     },
     {
-        "Kode":"BKL",
+        "Kode":"IDBE",
         "Bawang Merah":"671",
         "Bawang Putih":"15",
         "Bawang Daun":"16360",
@@ -168,7 +168,7 @@
         "Jengkol":"5768"
     },
     {
-        "Kode":"LMP",
+        "Kode":"IDLA",
         "Bawang Merah":"2193",
         "Bawang Putih":"1",
         "Bawang Daun":"3742",
@@ -192,7 +192,7 @@
         "Jengkol":"18836"
     },
     {
-        "Kode":"KBB",
+        "Kode":"IDBB",
         "Bawang Merah":"176",
         "Bawang Putih":"-",
         "Bawang Daun":"500",
@@ -216,7 +216,7 @@
         "Jengkol":"764"
     },
     {
-        "Kode":"KRI",
+        "Kode":"IDKR",
         "Bawang Merah":"17",
         "Bawang Putih":"-",
         "Bawang Daun":"211",
@@ -240,7 +240,7 @@
         "Jengkol":"927"
     },
     {
-        "Kode":"DKJ",
+        "Kode":"IDJK",
         "Bawang Merah":"-",
         "Bawang Putih":"-",
         "Bawang Daun":"-",
@@ -264,7 +264,7 @@
         "Jengkol":"-"
     },
     {
-        "Kode":"JBR",
+        "Kode":"IDJB",
         "Bawang Merah":"179355",
         "Bawang Putih":"208",
         "Bawang Daun":"163136",
@@ -288,7 +288,7 @@
         "Jengkol":"19763"
     },
     {
-        "Kode":"JTG",
+        "Kode":"IDJT",
         "Bawang Merah":"479091",
         "Bawang Putih":"29047",
         "Bawang Daun":"125942",
@@ -312,7 +312,7 @@
         "Jengkol":"16794"
     },
     {
-        "Kode":"DIY",
+        "Kode":"IDYO",
         "Bawang Merah":"32953",
         "Bawang Putih":"-",
         "Bawang Daun":"244",
@@ -336,7 +336,7 @@
         "Jengkol":"154"
     },
     {
-        "Kode":"JTM",
+        "Kode":"IDJI",
         "Bawang Merah":"484669",
         "Bawang Putih":"1053",
         "Bawang Daun":"121421",
@@ -360,7 +360,7 @@
         "Jengkol":"1066"
     },
     {
-        "Kode":"BTN",
+        "Kode":"IDBT",
         "Bawang Merah":"860",
         "Bawang Putih":"-",
         "Bawang Daun":"270",
@@ -384,7 +384,7 @@
         "Jengkol":"9303"
     },
     {
-        "Kode":"BAL",
+        "Kode":"IDBA",
         "Bawang Merah":"35374",
         "Bawang Putih":"167",
         "Bawang Daun":"818",
@@ -408,7 +408,7 @@
         "Jengkol":"-"
     },
     {
-        "Kode":"NTB",
+        "Kode":"IDNB",
         "Bawang Merah":"212618",
         "Bawang Putih":"7057",
         "Bawang Daun":"2330",
@@ -432,7 +432,7 @@
         "Jengkol":"1"
     },
     {
-        "Kode":"NTT",
+        "Kode":"IDNT",
         "Bawang Merah":"11409",
         "Bawang Putih":"346",
         "Bawang Daun":"1635",
@@ -456,7 +456,7 @@
         "Jengkol":"-"
     },
     {
-        "Kode":"KBR",
+        "Kode":"IDKB",
         "Bawang Merah":"109",
         "Bawang Putih":"-",
         "Bawang Daun":"833",
@@ -480,7 +480,7 @@
         "Jengkol":"12899"
     },
     {
-        "Kode":"KTG",
+        "Kode":"IDKT",
         "Bawang Merah":"72",
         "Bawang Putih":"-",
         "Bawang Daun":"1381",
@@ -504,7 +504,7 @@
         "Jengkol":"2511"
     },
     {
-        "Kode":"KSL",
+        "Kode":"IDKS",
         "Bawang Merah":"483",
         "Bawang Putih":"-",
         "Bawang Daun":"756",
@@ -528,31 +528,7 @@
         "Jengkol":"2867"
     },
     {
-        "Kode":"KTM",
-        "Bawang Merah":"252",
-        "Bawang Putih":"-",
-        "Bawang Daun":"676",
-        "Kentang":"-",
-        "Kubis":"4",
-        "Kembang Kol":"162",
-        "Petsai Sawi":"7086",
-        "Wortel":"-",
-        "Kacang Panjang":"6747",
-        "Cabai Besar":"4830",
-        "Cabai Rawit":"7470",
-        "Tomat":"6929",
-        "Terung":"9420",
-        "Buncis":"4402",
-        "Ketimun":"10593",
-        "Labu Siam":"185",
-        "Kangkung":"9394",
-        "Bayam":"4743",
-        "Melinjo":"422",
-        "Petai":"917",
-        "Jengkol":"1117"
-    },
-    {
-        "Kode":"KRU",
+        "Kode":"IDKU",
         "Bawang Merah":"351",
         "Bawang Putih":"-",
         "Bawang Daun":"2011",
@@ -576,7 +552,31 @@
         "Jengkol":"30"
     },
     {
-        "Kode":"SLU",
+        "Kode":"IDKI",
+        "Bawang Merah":"252",
+        "Bawang Putih":"-",
+        "Bawang Daun":"676",
+        "Kentang":"-",
+        "Kubis":"4",
+        "Kembang Kol":"162",
+        "Petsai Sawi":"7086",
+        "Wortel":"-",
+        "Kacang Panjang":"6747",
+        "Cabai Besar":"4830",
+        "Cabai Rawit":"7470",
+        "Tomat":"6929",
+        "Terung":"9420",
+        "Buncis":"4402",
+        "Ketimun":"10593",
+        "Labu Siam":"185",
+        "Kangkung":"9394",
+        "Bayam":"4743",
+        "Melinjo":"422",
+        "Petai":"917",
+        "Jengkol":"1117"
+    },
+    {
+        "Kode":"IDSA",
         "Bawang Merah":"3153",
         "Bawang Putih":"-",
         "Bawang Daun":"55928",
@@ -600,7 +600,7 @@
         "Jengkol":"-"
     },
     {
-        "Kode":"STG",
+        "Kode":"IDST",
         "Bawang Merah":"3228",
         "Bawang Putih":"152",
         "Bawang Daun":"8747",
@@ -624,7 +624,7 @@
         "Jengkol":"1748"
     },
     {
-        "Kode":"SSN",
+        "Kode":"IDSN",
         "Bawang Merah":"201421",
         "Bawang Putih":"1",
         "Bawang Daun":"35061",
@@ -648,7 +648,7 @@
         "Jengkol":"1853"
     },
     {
-        "Kode":"STR",
+        "Kode":"IDSG",
         "Bawang Merah":"491",
         "Bawang Putih":"-",
         "Bawang Daun":"570",
@@ -672,7 +672,7 @@
         "Jengkol":"409"
     },
     {
-        "Kode":"GOR",
+        "Kode":"IDGO",
         "Bawang Merah":"237",
         "Bawang Putih":"-",
         "Bawang Daun":"20",
@@ -696,7 +696,7 @@
         "Jengkol":"2"
     },
     {
-        "Kode":"SBW",
+        "Kode":"IDSR",
         "Bawang Merah":"1076",
         "Bawang Putih":"8",
         "Bawang Daun":"231",
@@ -720,7 +720,7 @@
         "Jengkol":"3"
     },
     {
-        "Kode":"MLK",
+        "Kode":"IDMA",
         "Bawang Merah":"607",
         "Bawang Putih":"-",
         "Bawang Daun":"427",
@@ -744,7 +744,7 @@
         "Jengkol":"12"
     },
     {
-        "Kode":"MLU",
+        "Kode":"IDMU",
         "Bawang Merah":"611",
         "Bawang Putih":"-",
         "Bawang Daun":"1058",
@@ -768,7 +768,7 @@
         "Jengkol":"-"
     },
     {
-        "Kode":"PBW",
+        "Kode":"IDPB",
         "Bawang Merah":"343",
         "Bawang Putih":"-",
         "Bawang Daun":"470",
@@ -792,7 +792,7 @@
         "Jengkol":"6"
     },
     {
-        "Kode":"PBD",
+        "Kode":"IDPBD",
         "Bawang Merah":"-",
         "Bawang Putih":"-",
         "Bawang Daun":"-",
@@ -816,7 +816,7 @@
         "Jengkol":"-"
     },
     {
-        "Kode":"PAP",
+        "Kode":"IDPA",
         "Bawang Merah":"317",
         "Bawang Putih":"1",
         "Bawang Daun":"1501",

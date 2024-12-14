@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\mapController;
 use App\Http\Controllers\PanganController;
 use App\Http\Controllers\RegistrasiController;
 use Illuminate\Support\Facades\Route;
@@ -29,7 +30,7 @@ Route::get('/navbarM', function () {
     return view('baseLayout/NavbarMasyarakat',['title'=>"NavbarMasyarakat"]);
 });
 
-Route::get("/data",[PanganController::class,"pangan"]);
+Route::get("/lala",[PanganController::class,"pangan"]);
 Route::get('/navbarP', function () {
     return view('baseLayout/navbarPetani',['title'=>"dashboardPetani"]);
 });
@@ -48,3 +49,6 @@ Route::get('/produksi', function () {
 Route::get('/berandaM', function () {
     return view('masyarakat/beranda',['title'=>"NavbarMasyarakat"]);
 });
+
+// routes/api.php
+Route::get('/regions-colors', [mapController::class, 'getJumlah']);

@@ -12,192 +12,193 @@ class ProvinsiSeeder extends Seeder
     public function run(): void
     {
         Provinsi::create([
-            'ID_Provinsi' => 'ACH',
+            'ID_Provinsi' => 'IDAC',
             'Provinsi' => 'ACEH',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'SMT',
+            'ID_Provinsi' => 'IDSU',
             'Provinsi' => 'SUMATERA UTARA',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'SMB',
+            'ID_Provinsi' => 'IDSB',
             'Provinsi' => 'SUMATERA BARAT',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'RIU',
+            'ID_Provinsi' => 'IDRI',
             'Provinsi' => 'RIAU',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'JMB',
+            'ID_Provinsi' => 'IDJA',
             'Provinsi' => 'JAMBI',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'SSL',
+            'ID_Provinsi' => 'IDSS',
             'Provinsi' => 'SUMATERA SELATAN',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'BKL',
+            'ID_Provinsi' => 'IDBE',
             'Provinsi' => 'BENGKULU',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'LMP',
+            'ID_Provinsi' => 'IDLA',
             'Provinsi' => 'LAMPUNG',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'KBB',
+            'ID_Provinsi' => 'IDBB',
             'Provinsi' => 'KEP. BANGKA BELITUNG',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'KRI',
+            'ID_Provinsi' => 'IDKR',
             'Provinsi' => 'KEP. RIAU',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'DKJ',
+            'ID_Provinsi' => 'IDJK',
             'Provinsi' => 'DKI JAKARTA',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'JBR',
+            'ID_Provinsi' => 'IDJB',
             'Provinsi' => 'JAWA BARAT',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'JTG',
+            'ID_Provinsi' => 'IDJT',
             'Provinsi' => 'JAWA TENGAH',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'DIY',
+            'ID_Provinsi' => 'IDYO',
             'Provinsi' => 'DI YOGYAKARTA',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'JTM',
+            'ID_Provinsi' => 'IDJI',
             'Provinsi' => 'JAWA TIMUR',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'BTN',
+            'ID_Provinsi' => 'IDBT',
             'Provinsi' => 'BANTEN',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'BAL',
+            'ID_Provinsi' => 'IDBA',
             'Provinsi' => 'BALI',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'NTB',
+            'ID_Provinsi' => 'IDNB',
             'Provinsi' => 'NUSA TENGGARA BARAT',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'NTT',
+            'ID_Provinsi' => 'IDNT',
             'Provinsi' => 'NUSA TENGGARA TIMUR',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'KBR',
+            'ID_Provinsi' => 'IDKB',
             'Provinsi' => 'KALIMANTAN BARAT',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'KTG',
+            'ID_Provinsi' => 'IDKT',
             'Provinsi' => 'KALIMANTAN TENGAH',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'KSL',
+            'ID_Provinsi' => 'IDKS',
             'Provinsi' => 'KALIMANTAN SELATAN',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'KTM',
-            'Provinsi' => 'KALIMANTAN TIMUR',
-        ]);
-        
-        Provinsi::create([
-            'ID_Provinsi' => 'KRU',
+            'ID_Provinsi' => 'IDKU',
             'Provinsi' => 'KALIMANTAN UTARA',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'SLU',
+            'ID_Provinsi' => 'IDKI',
+            'Provinsi' => 'KALIMANTAN TIMUR',
+        ]);
+        
+
+        Provinsi::create([
+            'ID_Provinsi' => 'IDSA',
             'Provinsi' => 'SULAWESI UTARA',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'STG',
+            'ID_Provinsi' => 'IDST',
             'Provinsi' => 'SULAWESI TENGAH',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'SSN',
+            'ID_Provinsi' => 'IDSN',
             'Provinsi' => 'SULAWESI SELATAN',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'STR',
+            'ID_Provinsi' => 'IDSG',
             'Provinsi' => 'SULAWESI TENGGARA',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'GOR',
+            'ID_Provinsi' => 'IDGO',
             'Provinsi' => 'GORONTALO',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'SBW',
+            'ID_Provinsi' => 'IDSR',
             'Provinsi' => 'SULAWESI BARAT',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'MLK',
+            'ID_Provinsi' => 'IDMA',
             'Provinsi' => 'MALUKU',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'MLU',
+            'ID_Provinsi' => 'IDMU',
             'Provinsi' => 'MALUKU UTARA',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'PBW',
+            'ID_Provinsi' => 'IDPB',
             'Provinsi' => 'PAPUA BARAT',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'PBD',
+            'ID_Provinsi' => 'IDPBD',
             'Provinsi' => 'PAPUA BARAT DAYA',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'PAP',
+            'ID_Provinsi' => 'IDPA',
             'Provinsi' => 'PAPUA',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'PSL',
+            'ID_Provinsi' => 'IDPS',
             'Provinsi' => 'PAPUA SELATAN',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'PTG',
+            'ID_Provinsi' => 'IDPT',
             'Provinsi' => 'PAPUA TENGAH',
         ]);
         
         Provinsi::create([
-            'ID_Provinsi' => 'PPG',
+            'ID_Provinsi' => 'IDPP',
             'Provinsi' => 'PAPUA PEGUNUNGAN',
         ]);
         

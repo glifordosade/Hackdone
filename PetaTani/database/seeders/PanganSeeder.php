@@ -13,15 +13,16 @@ class PanganSeeder extends Seeder
      */
     public function run(): void
     {
-        $json = file_get_contents(public_path('lala/datasayur.json'));
+        $json = file_get_contents(public_path('data/datasayur.json'));
         $data = json_decode($json, true);
 
 
-        for ($i=0; $i < 2 ; $i++) { 
-            for ($j=0; $j < count($data[$i]) ; $j++) { 
+
+        for ($i=0; $i < 1 ; $i++) { 
+            for ($j=0; $j < 34; $j++) { 
                 
                 foreach ($data[$j] as $jenis_sayuran => $jumlah_sayuran) {
-                    if ($jenis_sayuran == 'Kode') {
+                    if ($jenis_sayuran == 'Kode' || $jenis_sayuran != 'Petsai Sawi') {
                         continue; // Skip this iteration if it's the 'Kode' key
                     }
                     Pangan::create([

@@ -24,7 +24,7 @@
                 </div>
                 <!-- Button Registrasi dan Masuk tetap di kanan -->
                 <span class="navbar-text">
-                    <button type="button" class="btn btn-success" style="font-size:15px; background-color:#f5f8f7; color:#055C46">Register</button>
+                    <a href="/Registrasi" type="button" class="btn btn-success" style="font-size:15px; background-color:#f5f8f7; color:#055C46">Register</a>
                     <a href="/login" type="button" class="btn btn-success" style="font-size:15px; background-color:#055C46; color:#ffff">Masuk</a>
                 </span>
             </div>
