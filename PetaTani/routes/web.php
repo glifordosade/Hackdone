@@ -21,3 +21,7 @@ Route::get('/map', function () {
 Route::get('/navbarM', function () {
     return view('baseLayout/NavbarMasyarakat',['title'=>"NavbarMasyarakat"]);
 });
+
+Route::get('/berandaM', function () {
+    return view('masyarakat/beranda',['title'=>"NavbarMasyarakat"]);
+});
