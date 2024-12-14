@@ -15,4 +15,6 @@ Route::controller(LoginController::class)->group(function(){
     Route::get('/logout', "Logout");
 });
 
-
+Route::get('/map', function () {
+    return view('map');
+});
