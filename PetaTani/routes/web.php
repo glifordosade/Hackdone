@@ -18,3 +18,7 @@ Route::controller(LoginController::class)->group(function(){
 Route::get('/map', function () {
     return view('map');
 });
+
+Route::get('/navbarM', function () {
+    return view('baseLayout/NavbarMasyarakat',['title'=>"NavbarMasyarakat"]);
+});
