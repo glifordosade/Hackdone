@@ -21,7 +21,7 @@
                 </ul>
                 <span class="navbar-text">
                     <button type="button" class="btn btn-success" style="font-size:15px; background-color:#055C46;">Buat Akun</button>
-                    <button type="button" class="btn btn-success" style="font-size:15px; background-color:#055C46;">Masuk</button>
+                    <a href="/login" type="button" class="btn btn-success" style="font-size:15px; background-color:#055C46;">Masuk</a>
                 </span>
             </div>
         </div>
