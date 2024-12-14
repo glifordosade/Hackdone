@@ -1,11 +1,12 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('landing');});
-
+Route::controller(DashboardController::class)->group(function(){
+    Route::get('/', "Landing");
+});
 
 Route::controller(LoginController::class)->group(function(){
     Route::get('/login', "showLogin");
