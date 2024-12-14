@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col">
           <h1 style=" font-weight: bold; margin-top:40px; font-size:60px">Solusi Inovatif untuk Manajemen <span style=" color:#F47E20;">Pertanian</span> </h1>
-          <h4 style=" font-size:20px; color:#646464; margin-top:50px">Menghubungkan Petani, Konsumen, dan Pemerintah. Bergabunglah dengan kami untuk meningkatkan efisiensi dan akses pasar langsung.
+          <h4 style=" font-size:20px; color:#646464; margin-top:50px;font-weight:100">Menghubungkan Petani, Konsumen, dan Pemerintah. Bergabunglah dengan kami untuk meningkatkan efisiensi dan akses pasar langsung.
               Login sekarang dan mulai optimalkan pertanian Anda!</h4>
         </div>
         <div class="col">

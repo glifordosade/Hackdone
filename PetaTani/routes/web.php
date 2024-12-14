@@ -21,3 +21,15 @@ Route::get('/map', function () {
 Route::get('/navbarM', function () {
     return view('baseLayout/NavbarMasyarakat',['title'=>"NavbarMasyarakat"]);
 });
+
+Route::get('/navbarP', function () {
+    return view('baseLayout/navbarPetani',['title'=>"dashboardPetani"]);
+});
+
+Route::get('/resource', function () {
+    return view('resource',['title'=>"showResource"]);
+});
+
+
+
+

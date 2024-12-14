@@ -45,4 +45,13 @@ class LoginController extends Controller
         return redirect('/');
     }
 
+    public function showResource(){
+        return view("resource",[
+            "title"=>"Resource"
+        ]);
+    }
+
 }
+
+
+
