@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="img/Petatani.png" alt="Logo" style="width:50px; height:50px">
+                <img src="img/Petatani.png" alt="Logo" style="width:80px; height:80px">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
                     </li>
                 </ul>
                 <span class="navbar-text">
-                    <button type="button" class="btn btn-success" style="font-size:15px; background-color:#055C46;">Buat Akun</button>
+                    <button type="button" class="btn btn-success" style="font-size:15px; background-color:#f7f7f7; color:#055C46">Registrasi</button>
                     <button type="button" class="btn btn-success" style="font-size:15px; background-color:#055C46;">Masuk</button>
                 </span>
             </div>
