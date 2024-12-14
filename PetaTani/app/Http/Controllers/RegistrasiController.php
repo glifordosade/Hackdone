@@ -2,43 +2,34 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
-use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Facades\Hash;
 
 class RegistrasiController extends Controller
 {
 
-    // public function showRegist(){
-    //     return view("login",[
-    //         "title"=>"Login"
-    //     ]);
-    // }
-    public function RegistProcess(Request $req): RedirectResponse
+    public function showRegist(){
+        return view("Registrasi",[
+            "title"=>"Registrasi"
+        ]);
+    }
+    public function RegistProcess(Request $req)
     {
         $valid = $req->validate([
-            "nip"=>"required|min:18|max:18",
-            "nama"=>"required|min:5|max:30",
-            "biro"=>"required",
-            "email"=>"required|string|email|max:255|unique:users",
-            "pass"=> 'required|min:8',
+            "email"=>"required|string|email|unique:User",
+            "nama"=>"required",
+            "password"=> 'required|min:8',
         ],[
-            'nip'=>[
-                'required'=>'NIP wajib diisi',
-                'min'=>'jumlah NIP kurang dari 18 karakter',
-                'max'=>'jumlah NIP melebihi 18 karakter',
+            'email'=>[
+                'required'=>'email wajib diisi',
             ],
             'nama'=>[
                 'required'=>'Nama wajib diisi',
                 'min'=>'jumlah Nama kurang dari 5 karakter',
                 'max'=>'jumlah Nama melebihi 30 karakter',
             ],
-            'biro'=>[
-                'required'=>'Nama wajib diisi',
-            ],
-            'email'=>[
-                'required'=>'email wajib diisi',
-            ],
-            'pass'=>[
+            'password'=>[
                 'required'=>'Password wajib diisi',
                 'min'=>'jumlah Password kurang dari 8 karakter',
             ]
@@ -46,18 +37,14 @@ class RegistrasiController extends Controller
 
 
 
-        $valid['pass'] = Hash::make($valid['pass']);
-        $valid['biro'] = (int)$valid['biro'];
+        $valid['password'] = Hash::make($valid['password']);
         $input = [
             "NIP_User" => $valid['nip'],
-            "Nama_User" => $valid['nama'],
-            "Password" => $valid['pass'],
-            "email" => $valid['email'], // Pastikan ini terisi dengan benar
-            "biro" => $valid['biro'],
+            "Nama" => $valid['nip'],
+            "email" => $valid['nip'],
         ];
-        users::create($input);
-        // dd($input);
-        return redirect("/");
+        User::create($input);
+        return redirect("/Login");
 
     }
 

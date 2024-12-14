@@ -7,11 +7,18 @@
 <div class="kontainer w-25 mx-5 my-5">
     <h1 class="text-bold">Registrasi</h1>
 
-    <form action="/LoginProcess" method="POST">
+    <form action="/RegistProcess" method="POST">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">E-mail</label>
           <input placeholder="Masukkan Email" name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            @error('email')
+                <small class="text-red">{{ $message }}</small><br>
+            @enderror
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nama</label>
+          <input placeholder="Masukkan Nama" name="nama" type="email" class="form-control" aria-describedby=".form-control example">
             @error('email')
                 <small class="text-red">{{ $message }}</small><br>
             @enderror

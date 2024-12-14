@@ -6,25 +6,22 @@ use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Barang extends Model
+class Pangan extends Model
 {
-    /** @use HasFactory<\Database\Factories\BarangFactory> */
     use HasFactory;
 
-    protected $table = 'Barangs';
-    protected $primaryKey = 'ID_Barang';
+    protected $table = 'pangans';
+    protected $primaryKey = 'ID_Pangan';
     public $incrementing = false;
     protected $keyType = 'uuid';
 
 
     protected $fillable = [
-        'ID_Barang',
-        'ID_Toko',
-        'ID_User',
-        'Nama_Barang',
-        'Gambar_Barang',
-        'Harga',
-        'Deskripsi',
+        'ID_Pangan',
+        'ID_Provinsi',
+        'Jenis_Pangan',
+        'Jumlah',
+        'Tahun',
     ];
 
     protected static function boot()
@@ -37,16 +34,8 @@ class Barang extends Model
         });
     }
 
-    public function Toko(){
-        return $this->belongsTo(Toko::class);
-    }
 
-    public function Keranjang(){
-        return $this->hasMany(Keranjang::class);
+    public function Provinsi(){
+        return $this->belongsTo(Pangan::class);
     }
-
-    public function Wishlist(){
-        return $this->belongsTo(Wishlist::class);
-    }
-
 }

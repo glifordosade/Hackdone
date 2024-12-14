@@ -7,7 +7,6 @@
     <title>Map Example</title>
 
 
-    <!-- Tambahkan Style untuk Map -->
     <style>
         #map {
             width: 100%;

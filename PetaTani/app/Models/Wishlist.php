@@ -35,4 +35,10 @@ class Wishlist extends Model
         });
     }
 
+    public function User(){
+        return $this->belongsTo(User::class);
+    }
+    public function Barang(){
+        return $this->belongsTo(Barang::class);
+    }
 }

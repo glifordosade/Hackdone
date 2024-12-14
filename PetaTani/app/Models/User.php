@@ -61,4 +61,12 @@ class User extends Authenticatable
         });
     }
 
+    public function Keranjang(){
+        return $this->hasMany(Keranjang::class);
+    }
+    
+    public function Wishlist(){
+        return $this->hasMany(Wishlist::class);
+    }
+
 }
