@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\RedirectResponse;
+use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Http\RedirectResponse;
 
 class LoginController extends Controller
 {
@@ -28,15 +29,23 @@ class LoginController extends Controller
             ]
         ]);
 
-        $input['NIP_User']= $valid['username'];
+        $input['email']= $valid['email'];
         $input['password']= $valid['password'];
+
+        $role = User::select("Role")->where("email",'=',$valid['email'])->first();
+
 
         if(Auth::attempt($input)){
             $req->session()->regenerate();
-            return redirect('/');
+            if ($role->Role == 1) {
+                return redirect('/adminD');
+            }elseif ($role->Role == 2) {
+                return redirect('/BerandaPetani');
+            }else{
+                return redirect('/BerandaKonsumen');
+            }
         }
-
-        return back()->with('loginError','Login anda gagal');
+        return back()->with('gagal','Login anda gagal');
     }
 
     public function logout()

@@ -5,7 +5,7 @@
     <h5>Data Produk Tani</h5>
     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
 
-        <button class="btn btn-primary" type="button" style="background-color: #055C46; border-radius:10px">Tambah Produk +</button>
+        <a href="/tambah" class="btn btn-primary" type="button" style="background-color: #055C46; border-radius:10px">Tambah Produk +</a>
       </div>
     <table class="table" style="margin-top:20px">
         <thead>

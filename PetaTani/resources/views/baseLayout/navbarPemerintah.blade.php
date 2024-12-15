@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/tab.png">
     <title>PetaTani | {{ $title }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -63,11 +64,11 @@
 
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" style="color: #64748B">Dashboard</a>
+                        <a class="nav-link active" href="/adminD" style="color: #64748B">Dashboard</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #64748B">Keluar</a>
+                        <a class="nav-link" href="/logout" style="color: #64748B">Keluar</a>
                     </li>
                 </ul>
             </div>

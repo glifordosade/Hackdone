@@ -10,9 +10,10 @@
                     <p style="font-size: 28px;font-weight:600">SELAMAT DATANG di <br>PETATANI </p>
                     <p style="font-weight:100px ">Temukan berbagai produk pertanian disini</p>
                 </div>
-                <button type="button " class="btn"
-                    style="background-color:#EB763C;  padding: 8px 10px; width: 120px;font-size: 12px;border-radius:100px;font-weight:600;color:white; margin-top:20px">VIEW
-                    NOW</button>
+                <a href="/produk" class="btn btn-primary" type="button" style="background-color:#EB763C;  padding: 8px 10px; width: 120px;font-size: 12px;border-radius:100px;font-weight:600;color:white; margin-top:20px">View</a>
+
+
+              
             </div>
             <div style="width:50%;">
                 <img src="img/AgroTech.png" style="height:430px; margin-top:-40px; margin-left:100px; width:450px;" alt="">
@@ -29,6 +30,7 @@
                     <img src="img/jagung.png" class="card-img-top" alt="Jagung">
                     <div class="card-body">
                         <p class="card-text text-center">Jagung</p>
+                        <a href="/transaksi" class="card-link">Beli</a>
                     </div>
                 </div>
                 <!-- Kartu 2 -->
@@ -36,6 +38,7 @@
                     <img src="img/kubis.jpg" class="card-img-top" alt="Kubis">
                     <div class="card-body">
                         <p class="card-text text-center">Kubis</p>
+                        <a href="/transaksi" class="card-link">Beli</a>
                     </div>
                 </div>
                 <!-- Kartu 3 -->
@@ -43,18 +46,21 @@
                     <img src="img/kentang.jpg" class="card-img-top" alt="Kentang">
                     <div class="card-body">
                         <p class="card-text text-center">Kentang</p>
+                        <a href="/transaksi" class="card-link">Beli</a>
                     </div>
                 </div>
                 <div class="card m-2" style="width: 12rem;">
                     <img src="img/cabai.jpg" class="card-img-top" alt="Kentang">
                     <div class="card-body">
                         <p class="card-text text-center">Cabai</p>
+                        <a href="/transaksi" class="card-link">Beli</a>
                     </div>
                 </div>
                 <div class="card m-2" style="width: 12rem;">
                     <img src="img/produk1.png" class="card-img-top" alt="Kentang">
                     <div class="card-body">
                         <p class="card-text text-center">Cabai Merah</p>
+                        <a href="/transaksi" class="card-link">Beli</a>
                     </div>
                 </div>
             </div>

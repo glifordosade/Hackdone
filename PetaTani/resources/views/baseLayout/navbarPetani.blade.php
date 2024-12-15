@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/tab.png">
     <title>PetaTani | {{ $title }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -14,7 +15,7 @@
 
 <body>
     <!-- Navbar -->
-    <div class="navbar-container" style="margin-top:0px">
+    <div class="navbar-container" style="margin-top:0px;">
         <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-top:0px">
             <div class="container-fluid" style="background-color:#055C46;  margin:0px;">
                 <a class="navbar-brand" href="#">
@@ -44,7 +45,7 @@
                         <div style="display: flex;justify-content:center;align-items:left">
                             <img src="img/Mask Group.png" style="width:48px" alt="User Profile">
                             <div style="display: flex;flex-direction:column; color:#ffff">
-                                <div>Hi, Samsul</div>
+                                <div>Hi, Leo</div>
                                 <div>Petani</div>
                             </div>
                         </div>
@@ -62,19 +63,19 @@
 
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" style="color: #64748B">Dashboard</a>
+                        <a class="nav-link active" href="/BerandaPetani" style="color: #64748B">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #64748B">Sumber Daya</a>
+                        <a class="nav-link" href="/resource" style="color: #64748B">Sumber Daya</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #64748B">Jual Tani</a>
+                        <a class="nav-link" href="/jualtani" style="color: #64748B">Jual Tani</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #64748B">Produksi</a>
+                        <a class="nav-link" href="/Produksi" style="color: #64748B">Produksi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" style="color: #64748B">Keluar</a>
+                        <a href="/logout" class="nav-link" href="#" style="color: #64748B">Keluar</a>
                     </li>
                 </ul>
             </div>

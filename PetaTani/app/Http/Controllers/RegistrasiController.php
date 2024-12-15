@@ -9,16 +9,24 @@ use Illuminate\Support\Facades\Hash;
 class RegistrasiController extends Controller
 {
 
-    public function showRegist(){
+    public function showRegistP(){
         return view("Registrasi",[
-            "title"=>"Registrasi"
+            "title"=>"Registrasi Petani"
         ]);
     }
+
+    public function showRegistK(){
+        return view("RegistrasiK",[
+            "title"=>"Registrasi Konsumen"
+        ]);
+    }
+
     public function RegistProcess(Request $req)
     {
         $valid = $req->validate([
-            "email"=>"required|string|email|unique:User",
+            "email"=>"required|string|email|unique:users",
             "nama"=>"required",
+            "role"=>"required",
             "password"=> 'required|min:8',
         ],[
             'email'=>[
@@ -26,8 +34,9 @@ class RegistrasiController extends Controller
             ],
             'nama'=>[
                 'required'=>'Nama wajib diisi',
-                'min'=>'jumlah Nama kurang dari 5 karakter',
-                'max'=>'jumlah Nama melebihi 30 karakter',
+            ],
+            'role'=>[
+                'required'=>'role',
             ],
             'password'=>[
                 'required'=>'Password wajib diisi',
@@ -36,16 +45,17 @@ class RegistrasiController extends Controller
         ]);
 
 
-
+        // dd($valid);
         $valid['password'] = Hash::make($valid['password']);
+        $role = (int)$valid['role'];
         $input = [
-            "NIP_User" => $valid['nip'],
-            "Nama" => $valid['nip'],
-            "email" => $valid['nip'],
+            "email" => $valid['email'],
+            "Nama" => $valid['nama'],
+            "Role" => $role,
+            "password" => $valid['password'],
         ];
         User::create($input);
-        return redirect("/Login");
-
+        return redirect("/login");
     }
 
 }

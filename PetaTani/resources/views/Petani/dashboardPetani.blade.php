@@ -51,4 +51,9 @@
 </div>
 
 
+<div class="visualisasi">
+    <img src="img/data3.png" alt="" style="width: 800px; height:400px;">
+</div>
+
+
 @endsection

@@ -2,8 +2,9 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Models\User;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Hash;
 
 class BarangSeeder extends Seeder
 {
@@ -12,6 +13,14 @@ class BarangSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        $pass = "12345678";
+        $sandi = Hash::make($pass);
+        
+        User::create([
+            "Nama"=>"Admin",
+            "email"=>"kementan@gmail.com",
+            "password"=>$sandi,
+            "Role"=>1,
+        ]);
     }
 }

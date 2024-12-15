@@ -7,7 +7,7 @@
           <div>
               <img src="img/hlogo.png" alt="Logo" class="m-3" style="width: 250px" />
           </div>
-          <h1 class="text-bold" style="margin-left:30px">Registrasi</h1>
+          <h1 class="text-bold" style="margin-left:30px">Registrasi Konsumen</h1>
           <form action="/RegistProcess" method="POST">
             @csrf
               <div class="mb-2" style="margin-left:30px">
@@ -29,25 +29,15 @@
               <div class="mb-2" style="margin-left:30px">
                   <label for="exampleInputPassword1" class="form-label">Password</label>
                   <input placeholder="Masukkan Password" name="password" type="password" class="form-control" id="exampleInputPassword1" style="width: 500px">
-                  <input placeholder="Masukkan Password" name="role" type="text" value="2" hidden>
+                  <input placeholder="Masukkan Password" name="role" type="text" value="3" hidden>
                   @error('password')
+                  <small class="text-danger">{{ $message }}</small><br>
+                  @enderror
+                  @error('role')
                   <small class="text-danger">{{ $message }}</small><br>
                   @enderror
               </div>
               <div style="height: 20px;"></div>
-              <div class="mb-2" style="margin-left:30px">
-                  <label for="exampleInputPassword1" class="form-label">Pilihan</label>
-                  <select name="role" id="" class="form-control" style="width: 500px">
-                    <option disabled>Pilih Sebagai</option>
-                    <option value="2">Petani</option>
-                    <option value="3">Konsumen</option>
-                  </select>
-                  @error('password')
-                  <small class="text-danger">{{ $message }}</small><br>
-                  @enderror
-              </div>
-              <div style="height: 20px;"></div>
-
               <button type="submit" class="btn btn-success mb-3" style="font-size: 15px; background-color: #055C46; color: #ffffff; width: 500px; margin-left:30px">Submit</button>
           </form>
       </div>

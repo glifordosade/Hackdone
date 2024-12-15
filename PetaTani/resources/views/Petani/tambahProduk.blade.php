@@ -32,15 +32,15 @@
                     <label for="exampleInputPassword1" class="form-label">Deskripsi</label>
                     <input type="password" class="form-control" id="exampleInputPassword1">
                   </div>
-
-                <button type="submit" class="btn btn-primary" style="background-color: #055C46">Submit</button>
+                  <a href="/jualtani" class="btn btn-primary" type="button" style="background-color: #055C46; border-radius:10px">Submit</a>
+              
               </form>
           </div>
 
         </div>
       </div>
 
-
+      
 
 
 

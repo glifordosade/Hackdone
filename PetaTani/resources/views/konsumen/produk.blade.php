@@ -12,6 +12,7 @@
                     <h5 class="card-title" style="font-weight: bold; color:#EB763C">Daun Bawang</h5>
                     <p class="card-text">RP.5000</p>
                     <h6 style="font-size: 15px">Padang</h6>
+                    <a href="/transaksi" class="card-link">Beli</a>
 
                 </div>
             </div>
@@ -22,6 +23,7 @@
                     <h5 class="card-title" style="font-weight: bold; color:#EB763C">Cabe</h5>
                     <p class="card-text">RP.5000</p>
                     <h6>Padang</h6>
+                    <a href="/transaksi" class="card-link">Beli</a>
 
                 </div>
             </div>
@@ -32,6 +34,7 @@
                     <h5 class="card-title" style="font-weight: bold; color:#EB763C">Buncis</h5>
                     <p class="card-text">RP.5000</p>
                     <h6>Padang</h6>
+                    <a href="/transaksi" class="card-link">Beli</a>
 
                 </div>
             </div>
@@ -42,6 +45,7 @@
                     <h5 class="card-title" style="font-weight: bold; color:#EB763C">Kentang</h5>
                     <p class="card-text">RP.5000</p>
                     <h6>Padang</h6>
+                    <a href="/transaksi" class="card-link">Beli</a>
 
                 </div>
             </div>
@@ -55,6 +59,7 @@
                     <h5 class="card-title" style="font-weight: bold; color:#EB763C">Daun Bawang</h5>
                     <p class="card-text">RP.5000</p>
                     <h6 style="font-size: 15px">Padang</h6>
+                    <a href="/transaksi" class="card-link">Beli</a>
 
                 </div>
             </div>
@@ -65,6 +70,7 @@
                     <h5 class="card-title" style="font-weight: bold; color:#EB763C">Cabe</h5>
                     <p class="card-text">RP.5000</p>
                     <h6>Padang</h6>
+                    <a href="/transaksi" class="card-link">Beli</a>
 
                 </div>
             </div>
@@ -75,6 +81,7 @@
                     <h5 class="card-title" style="font-weight: bold; color:#EB763C">Buncis</h5>
                     <p class="card-text">RP.5000</p>
                     <h6>Padang</h6>
+                    <a href="/transaksi" class="card-link">Beli</a>
 
                 </div>
             </div>
@@ -85,6 +92,7 @@
                     <h5 class="card-title" style="font-weight: bold; color:#EB763C">Kentang</h5>
                     <p class="card-text">RP.5000</p>
                     <h6>Padang</h6>
+                    <a href="/transaksi" class="card-link">Beli</a>
 
                 </div>
             </div>

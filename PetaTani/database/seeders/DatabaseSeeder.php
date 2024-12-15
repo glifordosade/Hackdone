@@ -22,8 +22,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             ProvinsiSeeder::class,
             PanganSeeder::class,
-            // PostSeeder::class,
-            // CommentSeeder::class,
+            BarangSeeder::class,
         ]);
     }
 }

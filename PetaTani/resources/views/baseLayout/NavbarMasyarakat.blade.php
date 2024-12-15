@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/tab.png">
     <title>PetaTani | {{ $title }}</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -103,8 +104,8 @@
                             {{-- Photo Profile --}}
                             <img src="img/Mask Group.png" style="width:48px" alt="">
                             <div style="display: flex;flex-direction:column;align-items:start;">
-                                <div style="font-size:20px;font-weight:500;color:#2f2f2f"> Hi, Samsul</div>
-                                <div style="font-size:10px;font-weight:400;color:#100DB1"> Masyarakat</div>
+                                <div style="font-size:20px;font-weight:500;color:#2f2f2f"> Hi, Samsudin</div>
+                                <div style="font-size:10px;font-weight:400;color:#100DB1"> Konsumen</div>
                             </div>
 
                         </div>

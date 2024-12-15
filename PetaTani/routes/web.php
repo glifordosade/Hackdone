@@ -1,25 +1,33 @@
 <?php
 
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\LoginController;
-use App\Http\Controllers\mapController;
-use App\Http\Controllers\PanganController;
-use App\Http\Controllers\RegistrasiController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\mapController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PanganController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\RegistrasiController;
 
 Route::controller(DashboardController::class)->group(function(){
     Route::get('/', "Landing");
+    Route::get('/BerandaPetani', "dashboardPetani");
+    Route::get('/BerandaKonsumen', "Beranda");
+    Route::get('/Produksi', "Produksi");
+    Route::get('/jualtani', "JualTani");
+    Route::get('/tambah', "tambah");
+    Route::get('/resource', "Sumber");
+    Route::get('/adminD', "AdminDash");
 });
 
 Route::controller(LoginController::class)->group(function(){
     Route::get('/login', "showLogin"); //menampilkan halaman login
     Route::post('/LoginProcess', "LoginProcess"); //memproses login
-    Route::get('/logout', "Logout"); //proses logout
+    Route::get('/logout', "Logout");//proses logout
 });
 
 Route::controller(RegistrasiController::class)->group(function(){
-    Route::get("/Registrasi","showRegist");
-    Route::get("/RegistProcess","RegistProcess");
+    Route::get("/RegistrasiP","showRegistP");
+    Route::get("/RegistrasiK","showRegistK");
+    Route::post("/RegistProcess","RegistProcess");
 });
 
 Route::get('/map', function () {
@@ -37,14 +45,31 @@ Route::get('/navbarP', function () {
 
 
 
+Route::get('/map', function () {
+    return view('map');
+});
 
+Route::get('/navbarM', function () {
+    return view('baseLayout/NavbarMasyarakat',['title'=>"NavbarMasyarakat"]);
+});
 
 
 Route::get('/berandaMasyarakat', function () {
     return view('masyarakat/beranda',['title'=>"NavbarMasyarakat"]);
 });
 
-// routes/api.php
+Route::get('/resource', function () {
+    return view('Petani/resource',['title'=>"showResource"]);
+});
+
+Route::get('/produksi', function () {
+    return view('Petani/Produksi',['title'=>"Produksi"]);
+});
+
+Route::get('/berandaM', function () {
+    return view('masyarakat/beranda',['title'=>"NavbarMasyarakat"]);
+});
+
 Route::get('/regions-colors', [mapController::class, 'getJumlah']);
 Route::get('/register', function () {
     return view('register',['title'=>"NavbarMasyarakat"]);
@@ -57,33 +82,28 @@ Route::get('/dashboardP', function () {
 });
 
 Route::get('/produk', function () {
-    return view('masyarakat/produk',['title'=>"NavbarPemerintah"]);
+    return view('konsumen/produk',['title'=>"NavbarPemerintah"]);
 });
 
 
 Route::get('/transaksi', function () {
-    return view('masyarakat/transaksi',['title'=>"NavbarPemerintah"]);
+    return view('konsumen/transaksi',['title'=>"NavbarPemerintah"]);
 });
 
 Route::get('/checkout', function () {
-    return view('masyarakat/checkout',['title'=>"NavbarPemerintah"]);
+    return view('konsumen/checkout',['title'=>"NavbarPemerintah"]);
 });
 
 Route::get('/dashboardPetani', function () {
     return view('Petani/dashboardPetani',['title'=>"NavbarPemerintah"]);
 });
 
-Route::get('/resource', function () {
-    return view('Petani/resource',['title'=>"showResource"]);
-});
+
 
 Route::get('/produksi', function () {
     return view('Petani/Produksi',['title'=>"Produksi"]);
 });
 
-Route::get('/tambahProduk', function () {
-    return view('Petani/tambahProduk',['title'=>"NavbarPemerintah"]);
-});
 
 Route::get('/dataProduk', function () {
     return view('Petani/produk',['title'=>"NavbarPemerintah"]);

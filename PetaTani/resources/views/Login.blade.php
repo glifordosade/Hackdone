@@ -13,29 +13,30 @@
 
 
 
-                        <h1 class="text-bold" style="margin-left:30px">Login</h1>
-                        <form action="/LoginProcess" method="POST">
-                            <div class="mb-2" style="margin-left:30px; margin-top:30px">
-                                <label for="exampleInputEmail1" class="form-label">Email</label>
-                                <input placeholder="Masukkan Email" name="email" type="email" class="form-control" id="exampleInputEmail1" style="width: 400px" aria-describedby="emailHelp">
+            <h1 class="text-bold" style="margin-left:30px">Login</h1>
+            <form action="/LoginProcess" method="POST">
+                @csrf
+                <div class="mb-2" style="margin-left:30px; margin-top:30px">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input placeholder="Masukkan Email" name="email" type="email" class="form-control" id="exampleInputEmail1" style="width: 400px" aria-describedby="emailHelp">
 
-                                @error('email')
-                                <small class="text-red">{{ $message }}</small><br>
-                                @enderror
-                            </div>
-                            <div class="mb-2" style="margin-left:30px; margin-top:20px">
-                                <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input placeholder="Masukkan Password" name="password" type="password" class="form-control" id="exampleInputPassword1" style="width: 400px">
-                                @error('password')
-                                <small class="text-red">{{ $message }}</small><br>
-                                @enderror
-                            </div>
-                            <div class="mb-2 form-check" style="margin-left:30px">
+                    @error('email')
+                    <small class="text-red">{{ $message }}</small><br>
+                    @enderror
+                </div>
+                <div class="mb-2" style="margin-left:30px; margin-top:20px">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input placeholder="Masukkan Password" name="password" type="password" class="form-control" id="exampleInputPassword1" style="width: 400px">
+                    @error('password')
+                    <small class="text-red">{{ $message }}</small><br>
+                    @enderror
+                </div>
+                <div class="mb-2 form-check" style="margin-left:30px">
 
 
-                            </div>
-                            <button type="submit" class="btn btn-success mb-3" style="font-size: 15px; background-color: #055C46; color: #ffffff; width: 400px; margin-left:30px; margin-top:30px">Login</button>
-                        </form>
+                </div>
+                <button type="submit" class="btn btn-success mb-3" style="font-size: 15px; background-color: #055C46; color: #ffffff; width: 400px; margin-left:30px; margin-top:30px">Login</button>
+            </form>
 
 
 

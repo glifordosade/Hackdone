@@ -33,7 +33,9 @@
                     <h5 class="ms-4 fw-bold text-success">Rp. 20.000</h5>
                 </div>
                 <button class="btn btn-outline-success me-2">+ Keranjang</button>
-                <button class="btn btn-success">Beli</button>
+
+                <a href="/checkout" class="btn btn-primary" type="button" style="background-color: #055C46">Beli</a>
+                
             </div>
         </div>
 
